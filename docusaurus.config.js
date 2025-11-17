@@ -9,8 +9,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'User Manual',
-  tagline: 'Guide to navigating TGDeX platform features, roles, and support resources.',
-  url: 'https://docs.tgdex.iudx.io/',
+  tagline: 'Guide to navigating Forest Stack platform features, roles, and support resources.',
+  url: 'https://docs.forestdx.iudx.io/',
   baseUrl,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -25,7 +25,7 @@ const config = {
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/datakaveri/tgdex-developer-docs/blog/',
+            'https://github.com/datakaveri/forest-stack-developer-docs/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -72,16 +72,15 @@ const config = {
               {
                 html: `
   <div class="footer__brand">
-    <a href="https://tgdex.telangana.gov.in/" target="_blank" rel="noopener">
+    <a href="https://uat.catalogue.forestdx.iudx.io/" target="_blank" rel="noopener">
       <img
         src="${baseUrl}img/tgdex-green.png"
-        alt="TGDeX Logo"
+        alt="Forest Stack Logo"
         style="height:40px; margin-bottom:1px;"
       />
     </a>
     <p class="footer__text">
-      The Telangana Data Exchange platform offers access to curated data banks, pre-trained AI models, and use cases — all in one place to empower secure data exchange and support development of AI-driven solutions.
-    </p>
+        Forest Stack is a digital ecosystem, combining data, technology & governance to enhance forest cover, biodiversity conservation, enhance community involvement and unlock further innovation by startups, academia & conservationists. It is designed to bring a holistic view across multiple forest-related verticals and enable rapid digital interventions in the forestry space.    </p>
     <h5 class="footer__social-heading">Social Media</h5>
     <div class="footer__social-icons">
       <a href="https://www.facebook.com/etgots/" target="_blank" rel="noopener">
