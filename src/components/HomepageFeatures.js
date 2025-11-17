@@ -9,7 +9,7 @@ const FeatureList = [
     Svg: require('../../static/img/getting_started.svg').default,
     description: (
       <>
-        Introduction, purpose, audience, and usage guide for TGDeX platform.
+        Introduction, purpose, audience, and usage guide for Forest Stack platform.
       </>
     ),
   },
@@ -34,12 +34,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Platform Capabilities (Data Banks/AI Models/Use cases/Sandbox IDE)',
+    title: 'Platform Capabilities (Datasets/Models/Usecases)',
     link:"../../docs/platform_capabilities/platform_capabilities",
     Svg: require('../../static/img/provider.svg').default,
     description: (
       <>
-        Discover, upload, manage, and download TGDeX platform assets.	  </>
+        Discover, upload, manage, and download Forest Stack platform assets.	  </>
     ),
   },
   {
