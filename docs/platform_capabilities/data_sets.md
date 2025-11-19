@@ -9,9 +9,9 @@ Datasets are collections of datasets made available on Forest Stack. These may i
 
 ---
 
-## Data Sets Listing Page
+### Data Sets Listing Page
 
-The Datasets Listing page offers a consolidated view of all available Datasets, complete with a search bar, sorting options and a collapsible filter panel (by Data Provider Entity type, department, access status and more) to help users pinpoint relevant assets. Each Dataset is presented as a card showing its title, publisher, readiness score, file type, access level and a brief description, with a **View Dataset** button to access full details or download options.
+The Dataset Listing page offers a consolidated view of all available Datasets, complete with a search bar, sorting options and a collapsible filter panel (by Data Provider Entity type, department, access status and more) to help users pinpoint relevant assets. Each Dataset is presented as a card showing its title, publisher, readiness score, file type, access level and a brief description, with a **View Dataset** button to access full details or download options.
 
 ![Data Bank Listing Page](./img/fig_data_bank_listing_page.png)
 
@@ -39,7 +39,7 @@ The filter panel is divided into several sections, each allowing users to narrow
 
 ### Data Set Card
 Each Data Set card provides a snapshot of key information:
-- **Access Status** - "Open" or "Restricted" badge
+- **Access Status—**"Open" or "Restricted" badge
 - **Publishing Data Provider Entity**
 - **Title**
 - **Short description**
@@ -55,9 +55,9 @@ Each Data Set card provides a snapshot of key information:
 
 ## Data Set Details
 
-1. **Metadata:** Each data set comprises a comprehensive metadata panel that describes the asset's origin, usage scope, access rules, and quality indicators. This information helps users assess relevance and technical suitability before downloading or integrating the dataset into their projects.
+1. **<u>Metadata:</u>** Each data set comprises a comprehensive metadata panel that describes the asset's origin, usage scope, access rules, and quality indicators. This information helps users assess relevance and technical suitability before downloading or integrating the dataset into their projects.
 
-**Metadata fields shown are:**
+*Metadata fields shown are:*
 - **Title**: Name of the dataset
 - **Long description**: The long description section provides an in-depth narrative about the Data Set, offering context that goes beyond the basic metadata fields. It can outline the type of records (e.g., antenatal visit history, diagnostic results, vital signs) and the data sources (such as public health centers or hospitals). It can also suggest potential use cases, ideal audience and indicate on type on possible analyses that can be performed using the dataset.
 - **Data Provider Entity**: The government department, agency or entity that has the ownership of the published data set.
@@ -73,11 +73,16 @@ Each Data Set card provides a snapshot of key information:
 - **Data Readiness**: A data readiness score (percentage) that reflects completeness, documentation and cleanliness of the dataset.
 - **Verified By**: The role or individual—typically the Organisation Manager—who reviewed and approved the Data Bank for publication.
 
-2. Data Querying:
+    ![Dataset Details](./img/data_set_details.png)
+    Dataset Details
+
+2. **<u>Data Querying:</u>**
 - Get Data
 - Get Latest Data
 - Query Data
 - Download Data
+
+---
 
 ## Data Set Upload
 
@@ -93,7 +98,9 @@ Each Data Set card provides a snapshot of key information:
    - **Import from JSON:** Click ‘Upload JSON File’ to upload your metadata using an existing template file
 
 ![Clicking on Start adding Data Set](./img/fig_start_adding_data_bank.png)
-![Set up your data bank](./img/fig_set_up_your_data_bank.png)
+![Set up your data bank](img/fig_set_up_your_data_set.png)
+![Set up your data set](./img/fig_set_up_your_data_set_1.png)
+Set up your dataset
 
 ### Step 2: Enter Metadata Information
 1. Under metadata Information, fill out each mandatory field:
@@ -111,9 +118,10 @@ Each Data Set card provides a snapshot of key information:
    - **Organisation Type**: Public, Private, Academic, or Other
    - **File Format**: Format of data bank file which is being uploaded (CSV, TXT, PDF, GeoJSON, Shapefile, etc.).
 2. **Link Related Assets**: Add Associated Data Sets or Add Associated Models to create pre-defined connections between your new Data Set and other platform content.
-
-![Adding Metadata Information](img/fig_adding_metadata_information.png)
+ 
 ![Step 2: Add Tags Example](./img/fig51.png)
+![Adding Metadata Information](img/fig_adding_metadata_information.png)
+Adding metadata information
 
 ### Step 3: Upload Data Bank
 The user should upload the relevant files according to the file format selected in Step 2. Users can upload multiple files using the "Upload More" button. Additionally, users can clear or delete any previously uploaded files and upload new files or an entirely new set using the **Clear All** button.
@@ -134,6 +142,8 @@ Depending on a Data Set's permission level, the steps to download differ slightl
 - **Open Data Sets:**
   1. Click the **Download** button on the data set details page.
   2. The entire Data Bank (all files and folders) is packaged into a single ZIP archive and begins downloading immediately
+![Open Datasets](img/fig_download_openDI.png)
+Downloading Open Datasets
 
 - **Restricted Data Sets:**
   1. Click the **Request Access** button on the data bank details page
@@ -143,4 +153,6 @@ Depending on a Data Set's permission level, the steps to download differ slightl
   5. Click **Download** to retrieve the full Data Set.
   
 ![Downloading Restricted Data Sets](img/fig_downloading_restricted_data_banks.png)
+Downloading Restricted Data Sets
+
 ---

@@ -12,11 +12,12 @@ Models are ready-to-use, pre-trained machine learning models shared on Forest St
 
 The Models Listing page provides a central hub for discovering, evaluating, and accessing pre-trained Models. Users can quickly locate the right model via the search bar, refine the list with sort and filter controls, and review key details on each model’s card before diving into model-specific documentation or testing environments.
 ![Models Listing Page](./img/fig_ai_models_listing_page.png)
+Models Listing Page
 
 ### Models Search
 Positioned at the top of the page, the Models search bar lets users enter keywords (e.g., “translation,” “disease detection”) to instantly narrow the Models list.
 ![Models Search Bar](./img/fig_ai_models_search_bar.png)
-
+Models Search Bar
 ### Filter Feature
 The Model filter panel enables users to narrow the model listing by multiple criteria:
 - **Organisation Type**:
@@ -82,6 +83,7 @@ A structured metadata table presents:
 - **File Size**: Download size of complete model repository
 
 ![Models detail page](./img/fig_ai_models_detail_page.png)
+Models detail page
 
 ---
 
@@ -98,7 +100,13 @@ A structured metadata table presents:
    - **Import from JSON**: Upload an existing Forest Stack-compatible JSON manifest to pre-populate all metadata fields—ideal for automated workflows or bulk model registrations.
 
 ![Clicking on Start adding Model](./img/fig_clicking_on_start_adding_ai_model.png)
+Clicking on 'Start adding Model'
+
 ![Set up your Model](./img/fig_set_up_your_ai_model.png)
+Add Model
+
+![Set up your Model](./img/fig_set_up_your_ai_model.png)
+Set up your Model
 
 ### Step 2: Provide Model Information
 Once the basic setup is complete, fill in the model’s descriptive and structured metadata:
@@ -117,11 +125,13 @@ Once the basic setup is complete, fill in the model’s descriptive and structur
   - **Media URL**: URL link for the Model (e.g., GitHub link)
 
 ![Enter Model Information](./img/fig_enter_ai_model_information1.png)
+
 ![Enter Model Information](./img/fig_enter_ai_model_information2.png)
 
 ### Step 3: Upload Your Model
 If the user provides a Media URL, the Model will be created automatically in Step 2. However, if no Media URL is entered, the user will be directed to Step 3 to proceed with manual file upload. In this step, users must upload the relevant files according to the file format selected in Step 2. They have the option to upload multiple files using the "Upload More" button. Additionally, users can clear or delete any previously uploaded files and upload new files or an entirely new set using the **Clear All** button.
 ![Uploading Model](./img/fig_uploading_ai_model.png)
+Need to upload the IMAGE
 
 ### Step 4: Review and Publish
 Before publishing, review all details including the short and long descriptions, tags, metadata fields, and uploaded files to ensure accuracy. Confirm that the correct permission level is selected. Once everything is verified, click Publish to proceed.Open Models go live immediately and are discoverable by all users.
@@ -136,3 +146,4 @@ Approval requests are sent to the Organisation Manager for review. Once they app
 - **Open**: For 'Open' Models, users can simply click the **Download** button on the model detail page. The model file is immediately packaged and begins downloading without any additional steps or approvals.
 - **Restricted**: For 'Restricted' Models, users must first request access by clicking the **Request Access** button on the detail page. A form will appear prompting the user to provide a brief justification. Once submitted, the request is sent to the model's publisher or organisation manager for approval. After approval, the user receives an email notification and the **Download** button becomes active on the detail page, allowing them to retrieve the model file.
 ![Model Download](./img/fig_ai_model_download.png)
+

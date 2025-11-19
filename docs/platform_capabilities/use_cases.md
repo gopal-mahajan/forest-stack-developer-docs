@@ -62,9 +62,15 @@ Click on **Start Adding Use Case** and start entering use case information - In 
 
 ![Clicking on Start adding use case](./img/fig_clicking_on_start_adding_use_case.png)
 
-
 ![Figure](./img/fig74.png)
+Clicking on Start adding use case
 
+
+![Use Case upload form](./img/use_case_upload_form.png)
+
+
+![Description](./img/fig_description.png)
+Use Case upload form
 
 ### Step 2: Review and Publish
 - This final step provides a preview of the complete submission. Users should review all fields including title, descriptions, tags, and associated assets.

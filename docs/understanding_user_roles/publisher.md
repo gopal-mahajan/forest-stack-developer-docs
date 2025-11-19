@@ -1,9 +1,9 @@
 ---
-title: "Publisher / Publisher with Compute"
+title: "Publisher"
 sidebar_position: 3
 ---
 
-# Publisher / Publisher with Compute
+# Publisher
 
 ---
 
@@ -18,8 +18,11 @@ Publishers can:
 - Option to upload new assets (Datasets/Models /Use cases) on platform.
 - Manage uploaded assets.
 
-![fig85](./img/fig85.png)
+![fig85](./img/fig86.png)
+Manage Assets Section
+
 
 - Approve requests from users to download your assets
 
-![fig86](./img/fig86.png)
+![fig86](./img/fig85.png)
+Asset Requests section

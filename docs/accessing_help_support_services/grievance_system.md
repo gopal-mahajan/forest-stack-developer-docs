@@ -32,7 +32,7 @@ The Grievance Management module leverages **osTicket**, an open-source ticketing
 1. Click the **Open a New Ticket** button.
 
 ![Open a New Ticket Button](./img/fig95.png)
-
+Clicking on Open a New Ticket
 
 2. **Help Topic**: Choose from categories such as:
     - Feedback

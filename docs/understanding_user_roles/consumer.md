@@ -1,9 +1,9 @@
 ---
-title: "Consumer / Consumer with Compute"
+title: "Consumer"
 sidebar_position: 2
 ---
 
-# Consumer / Consumer with Compute
+# Consumer
 
 ---
 
@@ -20,7 +20,9 @@ Consumers can:
 - View your personal dashboard
 
 ![fig82](./img/fig82.png)
+Consumer Dashboard
 
 - View/download activity history
 
-![fig82](./img/fig83.png)
+![fig83](./img/fig83.png)
+My Activities

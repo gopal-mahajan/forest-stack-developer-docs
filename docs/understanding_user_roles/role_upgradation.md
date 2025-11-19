@@ -17,3 +17,4 @@ sidebar_position: 5
    - Upon approval, they may be assigned the role of Publisher based on the approval provided:
 
    ![fig91](./img/fig91.png)
+   Role Upgradation Screen
