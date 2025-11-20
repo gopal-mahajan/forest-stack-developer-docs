@@ -31,8 +31,6 @@ The Use cases listing page provides users with access to a curated collection of
 
 ![Use Case Cards](./img/fig_use_case_cards.png)
 
----
-
 ## Use Case Detail Page
 
 The Use cases Detail Page provides an in-depth view of a specific AI-driven solution or idea. It is designed to help users understand the problem being addressed, the AI approach used, and the practical impact the application can have. In some cases, it may also present an open problem statement—offering inspiration for users to explore and develop new AI-based solutions using available Data Banks and AI Models on the platform.
@@ -67,7 +65,7 @@ Click on **Start Adding Use Case** and start entering use case information - In 
 ![Figure](./img/fig74.png)
 _Clicking on Start adding use case_
 
-
+-
 ![Use Case upload form](./img/use_case_upload_form.png)
 
 
